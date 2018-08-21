@@ -1,94 +1,169 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" card="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Yo sup</title>
-  </head>
-  <body>
-    <div id="top-container" class="container">
-      <h1>Hello this is the title</h1>
-      <div class="row">
-        <div class="col-md-6 col-sm-12">
-          <div class="content">
-            <h5>Yo yo yo</h5>
-            <p>Some textaroni</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="content">
-            <h5>hahaha</h5>
-            <p>Some textaroni</p>
-          </div>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Yo sup</title>
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div id="map"></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 col-sm-12">
-          <div class="content">
-            <h5>Yo yo yo</h5>
-            <p>Some textaroni</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="content">
-            <h5>hehehe</h5>
-            <p>Some textaroni</p>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-12">
-          <div class="content">
-            <h5>hahaha</h5>
-            <p>Some textaroni</p>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12">
-              <div class="content">
-                <h5>Yo yo yo</h5>
-                <p>Some textaroni</p>
+      <div class="col-md-4">
+        <div class="row key-numbers-row">
+          <div class="col-md-6">
+            <div class="card key-number">
+              <div class="card-body">
+                <h6>Companies</h6>
+                <h1>842</h1>
               </div>
             </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="content">
-              <h5>Yo yo yo</h5>
-              <p>Some textaroni</p>
-            </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="content">
-              <h5>hehehe</h5>
-              <p>Some textaroni</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="content">
-              <h5>hahaha</h5>
-              <p>Some textaroni</p>
+          <div class="col-md-6">
+            <div class="card key-number">
+              <div class="card-body">
+                <h6>Contracts</h6>
+                <h1>396</h1>
+              </div>
             </div>
           </div>
         </div>
-      <div class="row">
-        <div class="col-12">
-          <div class="content">
-            <h5>Yo yo yo this one is the biggest</h5>
-            <p>Some textaroni and some even more textaroni because this one is the biggest, y'all.</p>
+        <div class="row key-numbers-row">
+          <div class="col-md-6">
+            <div class="card key-number">
+              <div class="card-body">
+                <h6>Contacts</h6>
+                <h1>5184</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card key-number">
+              <div class="card-body">
+                <h6>Leads</h6>
+                <h1>548</h1>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              Hello
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              Hello
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              Hello
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- <div id="top-container" class="container-fluid">
+      <div id="top-skeleton" class="row"></div>
+      <div  id="body-row" class="row">
+        <div id="side-skeleton" class="col-md"></div>
+        <div  class="col-md">
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="main.js"></script>
-  </body>
+          <div class="container-fluid">
+            <h1>Hello this is the title</h1>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="card"><div class="card-body"></div></div>
+              </div>
+            </div>
+            <div class="row" id="second-row">
+              <div class="col-md-8 col-sm-12">
+                <div class="card" id="map">
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="row" id="">
+                  <div class="col-md-6 col-sm-12">
+                    <div class="card">
+                      <h5>hahaha</h5>
+                      <p>Some textaroni</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                      <div class="card">
+                        <h5>Some number</h5>
+                        <p>Some textaroni</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                      <div class="card">
+                        <h5>hahaha</h5>
+                        <p>Some textaroni</p>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <div class="card">
+                          <h5>hahaha</h5>
+                          <p>Some textaroni</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row" id="third-row">
+              <div class="col-md-8 col-sm-12">
+                <div class="card">
+                  <h1>Yo yo yo</h1>
+                  <p>Some textaroni</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="card">
+                  <h1>hehehe</h1>
+                  <p>Some textaroni</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBO2PRhxUfOj6vokTLSPVHBquf9nujk2TI&callback=initMap"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>

@@ -1,0 +1,22 @@
+#top-container {
+    margin-top: 6rem;
+    background: #fdfdfe;
+}
+
+.content:first-child {
+    margin-left: 0;
+}
+
+.content {
+    padding: 1.5rem;
+    margin: 1rem;
+    width: 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 4px;
+    background: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #49545f;
+}
